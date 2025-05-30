@@ -1,0 +1,9 @@
+interface com.redhat.rhsm.consumer
+
+method GetUUID(locale: string) -> (
+    uuid: string
+)
+
+method GetOrg(locale: string) -> (
+    org: string
+)

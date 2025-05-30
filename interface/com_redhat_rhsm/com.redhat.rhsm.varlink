@@ -1,0 +1,5 @@
+interface com.redhat.rhsm
+
+method Ping(locale: string) -> (
+    running: bool
+)
